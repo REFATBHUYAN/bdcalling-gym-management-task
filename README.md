@@ -6,14 +6,6 @@ This project is a Gym Management System that allows gym administrators to manage
 
 ---
 
-## Relational Diagram
-
-Below is the relational diagram that outlines the backend structure, including how users, classes, bookings, and trainers are related.
-
-![Relational Diagram](./path-to-diagram-image)
-
-*Note: Replace the above link with the actual image or link to the diagram.*
-
 ---
 
 ## Technology Stack
@@ -104,17 +96,6 @@ const trainerSchema = new mongoose.Schema({
 
 ---
 
-## Admin Credentials
-
-**Admin Login:**
-
-- Email: `admin@example.com`
-- Password: `admin123`
-
-*Note: Please update these credentials with actual admin credentials before sharing.*
-
----
-
 ## Instructions to Run Locally
 
 ### Prerequisites
@@ -128,7 +109,7 @@ const trainerSchema = new mongoose.Schema({
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/gym-management-system.git
+    git clone https://github.com/REFATBHUYAN/bdcalling-gym-management-task
     cd gym-management-system
     ```
 
@@ -166,18 +147,10 @@ Access the API documentation at [http://localhost:3000/api-docs](http://localhos
 
 ## Live Hosting Link
 
-*Note: Provide the live deployment link once available.*
+*live Link [https://bdcalling-gym-management-task.vercel.app](https://bdcalling-gym-management-task.vercel.app)*
 
 ---
 
-## Testing Instructions
-
-### Admin Credentials for Testing
-
-Use the following credentials to test the admin functionalities:
-
-- **Email**: `admin@example.com`
-- **Password**: `admin123`
 
 ### Key Features to Test
 

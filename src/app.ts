@@ -39,6 +39,9 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
+app.get("/", (req, res) => {
+  res.send("Hello to Everyone from gym-management system");
+});
 app.use("/api/auth", authRoutes);
 app.use("/api/class", classRoutes);
 
