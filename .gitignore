@@ -123,17 +123,8 @@ dist
 
 
 
-# cd /path/to/your/project  # Navigate to your project directory if necessary
-# git branch
-# git checkout -b refat  # Create and switch to the new branch
-# git add .  # Stage all changes
-# git commit -m "Initial commit to refat branch"  # Commit your changes
-# git push -u origin refat  # Push the new branch to GitHub
-
-# //   model: "meta-llama/Llama-2-7b-chat-hf",
-#     model: 'gpt2',
-#     // model: 'distilgpt2',
-#     // model: 'google/flan-t5-small',
-#     // model: 'EleutherAI/gpt-neo-1.3B',
-#     // model: 'facebook/bart-base',
-#   //   model: "t5-small",
+# "scripts": {
+#     "start": "ts-node-dev src/server.ts",
+#     "dev": "nodemon --exec npx ts-node-dev --respawn --transpile-only src/server.ts",
+#     "test": "echo \"Error: no test specified\" && exit 1"
+#   },
