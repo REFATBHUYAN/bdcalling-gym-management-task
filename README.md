@@ -147,7 +147,7 @@ Access the API documentation at [http://localhost:3000/api-docs](http://localhos
 
 ## Live Hosting Link
 
-*live Link [https://bdcalling-gym-management-task.vercel.app](https://bdcalling-gym-management-task.vercel.app)*
+Live Link [https://gym-management-system-wine.vercel.app](https://gym-management-system-wine.vercel.app)
 
 ---
 
